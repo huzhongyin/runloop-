@@ -27,7 +27,7 @@
         NSLog(@"%@",[NSRunLoop currentRunLoop]);
         //添加port源，保证runloop正常轮询，不会创建后直接退出。
         [[NSRunLoop currentRunLoop] addPort:[NSPort port] forMode:NSDefaultRunLoopMode];
-        NSLog(@"test");
+        NSLog(@"test1");
         //开启runloop
         [[NSRunLoop currentRunLoop] run];
     }
